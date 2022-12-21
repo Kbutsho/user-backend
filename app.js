@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
     cors({
         origin: ["http://localhost:3000",
-            "https://job-portal-frontend-one.vercel.app"],
+            "https://kbutsho-once-inc.netlify.app"],
         credentials: true,
     })
 );
